@@ -82,6 +82,7 @@ Two currently added are `getFunctionPath(`![][string]`funcName)` to get the file
 
 [array]: https://raw.githubusercontent.com/wiki/wiremod/wire/Type-Array.png "array"
 [number]: https://raw.githubusercontent.com/wiki/wiremod/wire/Type-Number.png "number"
+[string]: https://raw.githubusercontent.com/wiki/wiremod/wire/Type-String.png "string"
 [ranger]: https://raw.githubusercontent.com/wiki/wiremod/wire/Type-RangerData.png "ranger"
 [vector]: https://raw.githubusercontent.com/wiki/wiremod/wire/Type-Vector.png "vector"
 [entity]: https://raw.githubusercontent.com/wiki/wiremod/wire/Type-Entity.png "entity"
