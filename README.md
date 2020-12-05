@@ -56,10 +56,32 @@ This includes functions to get the vr player's headset position, hand position, 
 
 Adds more functions that are more 'selfaware' just like e2's general selfaware.lua core
 
-Two currently added are getFunctionPath(s) to get the file path of an e2function, and ifdef(s) to basically be able to use #ifdef, just in runtime.
+Two currently added are `getFunctionPath(`![][string]`funcName)` to get the file path of an e2function, and ifdef(s) to basically be able to use #ifdef, just in runtime.
 
 ## Other Misc. Functions:
-E2: rangerSetFilter(array filter), sets the filter of your e2 rangers.
-E2: hideChatPly(entity ply,number yes), hides the chat of a player selected (by default enabled, but warns you when it is hidden and you can disable it with canhidechatply_cl
 
-SF: player:setEyeAngles(angle ang)
+### Expression 2
+<details>
+<summary><code>rangerOffsetManual</code> <a href="https://github.com/Vurv78/VExtensions/search?q=e2function+rangerOffsetManual">e2function<a/></summary>
+<p>
+
+![][ranger] = `rangerOffsetManual(`![][vector]`pos,`![][vector]`endpos,`![][array]`filter)`
+> Does a line trace from start position to the end position, with option to filter entities. [Example code available here](https://gist.github.com/Cheatoid/2e3dd9802fb0153dac46f09f2dc7a0b2).
+
+</p>
+</details>
+
+![][number] = `rangerSetFilter(`![][array]`filter)`
+> Sets the filter of your E2 rangers.
+
+`hideChatPly(`![][entity]`ply,`![][number]`yes)`
+> Hides the chat of a player selected (by default enabled, but warns you when it is hidden and you can disable it with `canhidechatply_cl` ConVar
+
+### StarfallEx
+(`CLIENT`) `player:setEyeAngles(angle ang)`
+
+[array]: https://raw.githubusercontent.com/wiki/wiremod/wire/Type-Array.png "array"
+[number]: https://raw.githubusercontent.com/wiki/wiremod/wire/Type-Number.png "number"
+[ranger]: https://raw.githubusercontent.com/wiki/wiremod/wire/Type-RangerData.png "ranger"
+[vector]: https://raw.githubusercontent.com/wiki/wiremod/wire/Type-Vector.png "vector"
+[entity]: https://raw.githubusercontent.com/wiki/wiremod/wire/Type-Entity.png "entity"
