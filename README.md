@@ -137,7 +137,7 @@ Similar to the [ChatPrint](https://github.com/MattJeanes/ChatPrint) E2 extension
 ## ***Contributors***
 | [<kbd>Vurv78</kbd>](https://github.com/Vurv78) | [<kbd>Fasteroid</kbd>](https://github.com/Fasteroid) | [<kbd>Cheatoid</kbd>](https://github.com/Cheatoid) |
 | :-: | :-: | :-: |
-| <a href="https://github.com/Vurv78/VExtensions/commits?author=Vurv78"><img src="https://avatars0.githubusercontent.com/u/56230599?s=120&v=4" width="120" alt="Vurv78"></a> | <a href="https://github.com/Vurv78/VExtensions/commits?author=Fasteroid"><img src="https://avatars0.githubusercontent.com/u/29342750?s=120&v=4" width="120" alt="Fasteroid"></a> | <a href="https://github.com/Vurv78/VExtensions/commits?author=Cheatoid"><img src="https://avatars0.githubusercontent.com/u/13347909?s=120&v=4" width="120" alt="Cheatoid"></a> |
+| <a href="https://github.com/Vurv78/VExtensions/commits?author=Vurv78"><img src="https://avatars0.githubusercontent.com/u/56230599?s=120&v=4" width="120" alt="Vurv78"></a><br><a href="https://steamcommunity.com/profiles/76561198151473160" title="Steam"><img src="https://user-images.githubusercontent.com/13347909/101342422-d4154600-3882-11eb-96fb-be22b15fab9f.png" alt="Steam"></a>&#160;&#160;<a href="https://discord.com/users/363590853140152321" title="Discord"><img src="https://user-images.githubusercontent.com/13347909/101343935-045de400-3885-11eb-90e0-706875b1fd5c.png" alt="Discord"></a> | <a href="https://github.com/Vurv78/VExtensions/commits?author=Fasteroid"><img src="https://avatars0.githubusercontent.com/u/29342750?s=120&v=4" width="120" alt="Fasteroid"></a><br><a href="https://steamcommunity.com/profiles/76561198008093053" title="Steam"><img src="https://user-images.githubusercontent.com/13347909/101342422-d4154600-3882-11eb-96fb-be22b15fab9f.png" alt="Steam"></a> | <a href="https://github.com/Vurv78/VExtensions/commits?author=Cheatoid"><img src="https://avatars0.githubusercontent.com/u/13347909?s=120&v=4" width="120" alt="Cheatoid"></a><br><a href="https://steamcommunity.com/profiles/76561198119930042" title="Steam"><img src="https://user-images.githubusercontent.com/13347909/101342422-d4154600-3882-11eb-96fb-be22b15fab9f.png" alt="Steam"></a> |
 
 ## ***License***
 <kbd>// TBD.</kbd>
@@ -146,6 +146,8 @@ Similar to the [ChatPrint](https://github.com/MattJeanes/ChatPrint) E2 extension
 [EPIC]: https://img.shields.io/badge/epic%3F-yes-blue?style=for-the-badge&labelColor=303030 "EPIC? Yes!"
 [Contributors]: https://img.shields.io/github/contributors/Vurv78/VExtensions?label=AWESOME%20CONTRIBUTORS&logo=github&logoColor=white&style=for-the-badge&labelColor=303030 "VExtensions Contributors"
 [GModServer]: https://img.shields.io/badge/Featured%20Server-Beyond%20Infinity-red?style=for-the-badge&labelColor=303030&color=blue "Featured on Beyond Infinity server"
+[SteamLogo]: https://user-images.githubusercontent.com/13347909/101342422-d4154600-3882-11eb-96fb-be22b15fab9f.png "Steam"
+[DiscordLogo]: https://user-images.githubusercontent.com/13347909/101343935-045de400-3885-11eb-90e0-706875b1fd5c.png "Discord"
 [array]: https://raw.githubusercontent.com/wiki/wiremod/wire/Type-Array.png "array"
 [number]: https://raw.githubusercontent.com/wiki/wiremod/wire/Type-Number.png "number"
 [string]: https://raw.githubusercontent.com/wiki/wiremod/wire/Type-String.png "string"
