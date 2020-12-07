@@ -1,4 +1,4 @@
-<!--<p align="center"><img src="https://raw.githubusercontent.com/IridiumIO/SteamAPNG/master/Media/Banner.svg" height="250"></p>-->
+<!-- Make Animated-PNG banner for VExtensions, SteamAPNG from IridiumIO might help with this. -->
 <p align="center">
   <b>&#x2728; [̲̅v][̲̅e][̲̅x][̲̅t][̲̅e][̲̅n][̲̅s][̲̅i][̲̅o][̲̅n][̲̅s] &#x2728;</b>
   <br>
@@ -16,7 +16,7 @@ Note that this will be unstable outside of releases.
 This is comparable to addons like Antagonise-Core / AntCore or E2Power, except, not filled with bugs and backdoors (E2Power).
 
 ## 📕 ***Wiki***
-[➡ Check it out here](https://github.com/Vurv78/VExtensions/wiki).
+➡ [Check it out here](https://github.com/Vurv78/VExtensions/wiki).
 
 ## 💠 ***Table of Contents***
 <p align="right">
