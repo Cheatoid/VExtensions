@@ -1,5 +1,5 @@
 # VExtensions
-![][EPIC]
+[![][EPIC]](https://github.com/Vurv78/VExtensions/pulse)
 
 A compilation of mini-addons for Expression2 and StarfallEx development.  
 Note that this will be unstable outside of releases.  
@@ -8,13 +8,13 @@ This is comparable to addons like Antagonise-Core / AntCore or E2Power, except, 
 # Overview
 
 ## Coroutine Core
-![][E2-yes] ![][SF-builtin]
+[![][E2-yes]](https://github.com/Vurv78/VExtensions/blob/master/lua/entities/gmod_wire_expression2/core/custom/sv_coroutines.lua) ![][SF-builtin]
 
 Allows you to make use of Lua's coroutines with user-defined functions, in a safe manner.  
 https://github.com/Vurv78/E2-CoroutineCore
 
 ## WebMaterials
-![][E2-yes]
+[![][E2-yes]](https://github.com/Vurv78/VExtensions/blob/master/lua/entities/gmod_wire_expression2/core/custom/sv_webmaterials.lua)
 
 Allows you to interact with images pulled off of the web that can be applied as a material to props and egp image boxes.  
 Whitelisted by default, [see the whitelist](https://github.com/Vurv78/VExtensions/search?q=%22local+URLMatches%22+filename%3Asv_webmaterials.lua).
@@ -26,7 +26,7 @@ Whitelisted by default, [see the whitelist](https://github.com/Vurv78/VExtension
 | [`vex_webmaterials_enabled_cl`](https://github.com/Vurv78/VExtensions/search?q=%22CreateConVar+vex_webmaterials_enabled_cl%22) | Enabled | Whether to allow net messages from the server to change the material of props to a webmaterial. |
 
 ## Selfaware Extended
-![][E2-yes]
+[![][E2-yes]](https://github.com/Vurv78/VExtensions/blob/master/lua/entities/gmod_wire_expression2/core/custom/sv_selfaware2.lua)
 
 Adds more functions that are more 'selfaware' just like E2's builtin self-aware functionality.
 
@@ -36,20 +36,20 @@ Adds more functions that are more 'selfaware' just like E2's builtin self-aware 
 > > 1. ![][string] `funcName`: Specify a function identifier/name/signature to lookup.
 
 ## Tool Core
-![][E2-yes] ![][SF-no]
+[![][E2-yes]](https://github.com/Vurv78/VExtensions/blob/master/lua/entities/gmod_wire_expression2/core/custom/sv_e2controller.lua) ![][SF-no]
 
-Allows you to make use of a custom tool in the Wiremod tab, the 'E2 Controller'  
+Allows you to make use of a custom tool in the Wiremod tab, select the 'E2 Controller'.  
 By right clicking a chip with the tool, you can take control of it and handle things inside of it with runOn* events when the tool clicks, that receive ranger data of the click.. etc
 
 ## VRMod Core
-![][E2-yes] ![][SF-builtin]  
+[![][E2-yes]](https://github.com/Vurv78/VExtensions/blob/master/lua/entities/gmod_wire_expression2/core/custom/sv_vrmod.lua) ![][SF-builtin]  
 *Requirement: VRMod addon must be installed on the server.*
 
 Allows you to use VRMod's *shared* functions and hooks.  
 This exposes functions to retrieve player's VR headset position, hand position, whether they just dropped a prop and more...
 
 ## PrintGlobal
-![][E2-yes] ![][SF-no]
+[![][E2-yes]](https://github.com/Vurv78/VExtensions/blob/master/lua/entities/gmod_wire_expression2/core/custom/sv_printglobal.lua) ![][SF-no]
 
 Allows you to print to other players chats, behaves like [`chat.AddText`](https://wiki.facepunch.com/gmod/chat.AddText).  
 Similar to [ChatPrint](https://github.com/MattJeanes/ChatPrint).
@@ -88,9 +88,9 @@ Similar to [ChatPrint](https://github.com/MattJeanes/ChatPrint).
 </details>
 
 ### StarfallEx
-![][SF-yes]
+[![][SF-yes]](https://github.com/Vurv78/VExtensions/blob/master/lua/starfall/libs_sh/playerex_sh.lua)
 
-![][CLIENT] `player:setEyeAngles(angle ang)`
+![][CLIENT] [`Player:setEyeAngles(Angle ang)`](https://github.com/Vurv78/VExtensions/search?q=%22player_methods+setEyeAngles%22+filename%3Aplayerex_sh.lua)
 
 ![][SERVER] `test...`
 
