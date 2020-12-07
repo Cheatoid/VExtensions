@@ -58,7 +58,7 @@ Similar to [ChatPrint](https://github.com/MattJeanes/ChatPrint).
 
 ### Expression 2
 <details>
-<summary><code>rangerOffsetManual</code> <a href="https://github.com/Vurv78/VExtensions/search?q=%22e2function+ranger+rangerOffsetManual%22+filename%3Asv_vex_main.lua&type=Code">e2function<a/> <a href="https://github.com/Vurv78/VExtensions/search?q=%22desc+rangerOffsetManual+vvr%22+filename%3Acl_vexdocs.lua&type=Code">e2docs</a></summary>
+<summary><code>rangerOffsetManual</code> <a href="https://github.com/Vurv78/VExtensions/search?q=%22e2function+ranger+rangerOffsetManual%22+filename%3Asv_vex_main.lua&type=Code">e̲2̲f̲u̲n̲c̲t̲i̲o̲n̲<a/> <a href="https://github.com/Vurv78/VExtensions/search?q=%22desc+rangerOffsetManual+vvr%22+filename%3Acl_vexdocs.lua&type=Code">｢	𝓓𝓞𝓒𝓢 ｣</a></summary>
 <p>
 
 ![][ranger] = `rangerOffsetManual(`![][vector]`startPos,`![][vector]`endPos,`![][array]`filter)`
@@ -68,7 +68,7 @@ Similar to [ChatPrint](https://github.com/MattJeanes/ChatPrint).
 </details>
 
 <details>
-<summary><code>rangerSetFilter</code> <a href="https://github.com/Vurv78/VExtensions/search?q=%22e2function+number+rangerSetFilter%22+filename%3Asv_vex_main.lua&type=Code">e2function<a/> <a href="https://github.com/Vurv78/VExtensions/search?q=%22desc+rangerSetFilter+r%22+filename%3Acl_vexdocs.lua&type=Code">e2docs</a></summary>
+<summary><code>rangerSetFilter</code> <a href="https://github.com/Vurv78/VExtensions/search?q=%22e2function+number+rangerSetFilter%22+filename%3Asv_vex_main.lua&type=Code">e2function<a/> <a href="https://github.com/Vurv78/VExtensions/search?q=%22desc+rangerSetFilter+r%22+filename%3Acl_vexdocs.lua&type=Code">𝙙𝙤𝙘𝙨</a></summary>
 <p>
 
 ![][number] = `rangerSetFilter(`![][array]`filter)`
@@ -78,7 +78,7 @@ Similar to [ChatPrint](https://github.com/MattJeanes/ChatPrint).
 </details>
 
 <details>
-<summary><code>hideChatPly</code> <a href="https://github.com/Vurv78/VExtensions/search?q=%22e2function+void+hideChatPly%22+filename%3Asv_vex_main.lua&type=Code">e2function<a/> <a href="https://github.com/Vurv78/VExtensions/search?q=%22desc+hideChatPly+en%22+filename%3Acl_vexdocs.lua&type=Code">e2docs</a></summary>
+<summary><code>hideChatPly</code> <a href="https://github.com/Vurv78/VExtensions/search?q=%22e2function+void+hideChatPly%22+filename%3Asv_vex_main.lua&type=Code">❪e2function❫<a/> <a href="https://github.com/Vurv78/VExtensions/search?q=%22desc+hideChatPly+en%22+filename%3Acl_vexdocs.lua&type=Code">❲docs❳</a></summary>
 <p>
 
 `hideChatPly(`![][entity]`ply,`![][number]`yes)`
