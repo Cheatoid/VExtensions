@@ -3,9 +3,9 @@
   <b>&#x2728; [̲̅v][̲̅e][̲̅x][̲̅t][̲̅e][̲̅n][̲̅s][̲̅i][̲̅o][̲̅n][̲̅s] &#x2728;</b>
   <br>
   <br>
-  <a href="https://github.com/Vurv78/VExtensions/pulse"><img src="https://img.shields.io/badge/epic%3F-yes-blue?style=for-the-badge&labelColor=303030" alt="EPIC? Yes!"></a>
-  <a href="https://github.com/Vurv78/VExtensions/graphs/contributors"><img src="https://img.shields.io/github/contributors/Vurv78/VExtensions?label=AWESOME%20CONTRIBUTORS&logo=github&logoColor=white&style=for-the-badge&labelColor=303030" alt="VExtensions Contributors"></a>
-  <a href="https://gmod-cheatoid.github.io/gmod-cheatoid/beyond-infinity.html"><img src="https://img.shields.io/badge/Featured%20Server-Beyond%20Infinity-red?style=for-the-badge&labelColor=303030&color=blue" alt="Featured on Beyond Infinity server"></a>
+  <a href="https://github.com/Vurv78/VExtensions/pulse" title="EPIC? Yes!"><img src="https://img.shields.io/badge/epic%3F-yes-blue?style=for-the-badge&labelColor=303030" alt="EPIC? Yes!"></a>
+  <a href="https://github.com/Vurv78/VExtensions/graphs/contributors" title="VExtensions Contributors"><img src="https://img.shields.io/github/contributors/Vurv78/VExtensions?label=AWESOME%20CONTRIBUTORS&logo=github&logoColor=white&style=for-the-badge&labelColor=303030" alt="VExtensions Contributors"></a>
+  <a href="https://gmod-cheatoid.github.io/gmod-cheatoid/beyond-infinity.html" title="Featured on Beyond Infinity server"><img src="https://img.shields.io/badge/Featured%20Server-Beyond%20Infinity-red?style=for-the-badge&labelColor=303030&color=blue" alt="Featured on Beyond Infinity server"></a>
 </p>
 
 -----
