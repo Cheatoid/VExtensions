@@ -5,7 +5,7 @@
   <br>
   <a href="https://github.com/Vurv78/VExtensions/pulse"><img src="https://img.shields.io/badge/epic%3F-yes-blue?style=for-the-badge&labelColor=303030" alt="EPIC? Yes!"></a>
   <a href="https://github.com/Vurv78/VExtensions/graphs/contributors"><img src="https://img.shields.io/github/contributors/Vurv78/VExtensions?label=AWESOME%20CONTRIBUTORS&logo=github&logoColor=white&style=for-the-badge&labelColor=303030" alt="VExtensions Contributors"></a>
-  <a href="https://gmod-servers.com/server/153061/"><img src="https://img.shields.io/badge/Featured%20Server-Beyond%20Infinity-red?style=for-the-badge&labelColor=303030&color=blue" alt="Featured on Beyond Infinity Server"></a>
+  <a href="https://gmod-cheatoid.github.io/gmod-cheatoid/beyond-infinity.html"><img src="https://img.shields.io/badge/Featured%20Server-Beyond%20Infinity-red?style=for-the-badge&labelColor=303030&color=blue" alt="Featured on Beyond Infinity server"></a>
 </p>
 
 -----
@@ -145,7 +145,7 @@ Similar to the [ChatPrint](https://github.com/MattJeanes/ChatPrint) E2 extension
 
 [EPIC]: https://img.shields.io/badge/epic%3F-yes-blue?style=for-the-badge&labelColor=303030 "EPIC? Yes!"
 [Contributors]: https://img.shields.io/github/contributors/Vurv78/VExtensions?label=AWESOME%20CONTRIBUTORS&logo=github&logoColor=white&style=for-the-badge&labelColor=303030 "VExtensions Contributors"
-[GModServer]: https://img.shields.io/badge/Featured%20Server-Beyond%20Infinity-red?style=for-the-badge&labelColor=303030&color=blue "Featured on Beyond Infinity Server"
+[GModServer]: https://img.shields.io/badge/Featured%20Server-Beyond%20Infinity-red?style=for-the-badge&labelColor=303030&color=blue "Featured on Beyond Infinity server"
 [array]: https://raw.githubusercontent.com/wiki/wiremod/wire/Type-Array.png "array"
 [number]: https://raw.githubusercontent.com/wiki/wiremod/wire/Type-Number.png "number"
 [string]: https://raw.githubusercontent.com/wiki/wiremod/wire/Type-String.png "string"
