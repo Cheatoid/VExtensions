@@ -1,5 +1,5 @@
 # VExtensions
-[![][EPIC]](https://github.com/Vurv78/VExtensions/pulse) [![][Contributors]](https://github.com/Vurv78/VExtensions/graphs/contributors) [![][GModServer]](steam://connect/69.140.244.127:27015)
+[![][EPIC]](https://github.com/Vurv78/VExtensions/pulse) [![][Contributors]](https://github.com/Vurv78/VExtensions/graphs/contributors) [![][GModServer]](https://gmod-servers.com/server/153061/)
 
 ## About
 A compilation of mini-addons for Expression2 and StarfallEx development.  
@@ -123,8 +123,8 @@ Similar to the [ChatPrint](https://github.com/MattJeanes/ChatPrint) E2 extension
 ## License
 TBD.
 
-[EPIC]: https://img.shields.io/badge/epic%3F-yes-blue?style=for-the-badge "EPIC? Yes!"
-[Contributors]: https://img.shields.io/github/contributors/Vurv78/VExtensions?label=AWESOME%20CONTRIBUTORS&logo=github&logoColor=white&style=for-the-badge "VExtensions Contributors"
+[EPIC]: https://img.shields.io/badge/epic%3F-yes-blue?style=for-the-badge&labelColor=303030 "EPIC? Yes!"
+[Contributors]: https://img.shields.io/github/contributors/Vurv78/VExtensions?label=AWESOME%20CONTRIBUTORS&logo=github&logoColor=white&style=for-the-badge&labelColor=303030 "VExtensions Contributors"
 [GModServer]: https://img.shields.io/badge/Featured%20Server-Beyond%20Infinity-red?style=for-the-badge&labelColor=303030&color=blue "Featured on Beyond Infinity Server"
 [array]: https://raw.githubusercontent.com/wiki/wiremod/wire/Type-Array.png "array"
 [number]: https://raw.githubusercontent.com/wiki/wiremod/wire/Type-Number.png "number"
