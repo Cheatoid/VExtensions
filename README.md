@@ -1,14 +1,25 @@
 # VExtensions
 [![][EPIC]](https://github.com/Vurv78/VExtensions/pulse)
 
+# About
 A compilation of mini-addons for Expression2 and StarfallEx development.  
 Note that this will be unstable outside of releases.  
 This is comparable to addons like Antagonise-Core / AntCore or E2Power, except, not filled with bugs and backdoors (E2Power).
 
-# Overview
+# Table of Contents
+- [Coroutine Core](#coroutine-core)
+- [WebMaterials](#webmaterials)
+- [Selfaware Extended](#selfaware-extended)
+- * [`getFunctionPath(string)`](#getfunctionpathstring-funcname)
+- [Tool Core](#tool-core)
+- [VRMod Core](#vrmod-core)
+- [PrintGlobal](#printglobal)
+- [Other/Misc Functions](#othermisc-functions)
+- * [Expression 2](#expression-2)
+- * [StarfallEx](#starfallex)
 
 ## Coroutine Core
-[![][E2-yes]](https://github.com/Vurv78/VExtensions/blob/master/lua/entities/gmod_wire_expression2/core/custom/sv_coroutines.lua) ![][SF-builtin]
+[![][E2-yes]](https://github.com/Vurv78/VExtensions/blob/master/lua/entities/gmod_wire_expression2/core/custom/sv_coroutines.lua) [![][SF-builtin]](#coroutine-core)
 
 Allows you to make use of Lua's coroutines with user-defined functions, in a safe manner.  
 https://github.com/Vurv78/E2-CoroutineCore
@@ -36,33 +47,40 @@ Adds more functions that are more 'selfaware' just like E2's builtin self-aware 
 > > 1. ![][string] `funcName`: Specify a function identifier/name/signature to lookup.
 
 ## Tool Core
-[![][E2-yes]](https://github.com/Vurv78/VExtensions/blob/master/lua/entities/gmod_wire_expression2/core/custom/sv_e2controller.lua) ![][SF-no]
+[![][E2-yes]](https://github.com/Vurv78/VExtensions/blob/master/lua/entities/gmod_wire_expression2/core/custom/sv_e2controller.lua) [![][SF-no]](#tool-core)
 
 Allows you to make use of a custom tool in the Wiremod tab, select the 'E2 Controller'.  
 By right clicking a chip with the tool, you can take control of it and handle things inside of it with runOn* events when the tool clicks, that receive ranger data of the click.. etc
 
 ## VRMod Core
-[![][E2-yes]](https://github.com/Vurv78/VExtensions/blob/master/lua/entities/gmod_wire_expression2/core/custom/sv_vrmod.lua) ![][SF-builtin]  
-*Requirement: VRMod addon must be installed on the server.*
+[![][E2-yes]](https://github.com/Vurv78/VExtensions/blob/master/lua/entities/gmod_wire_expression2/core/custom/sv_vrmod.lua) [![][SF-builtin]](#vrmod-core)  
+_Requirement: VRMod addon must be installed on the server._
 
 Allows you to use VRMod's *shared* functions and hooks.  
 This exposes functions to retrieve player's VR headset position, hand position, whether they just dropped a prop and more...
 
 ## PrintGlobal
-[![][E2-yes]](https://github.com/Vurv78/VExtensions/blob/master/lua/entities/gmod_wire_expression2/core/custom/sv_printglobal.lua) ![][SF-no]
+[![][E2-yes]](https://github.com/Vurv78/VExtensions/blob/master/lua/entities/gmod_wire_expression2/core/custom/sv_printglobal.lua) [![][SF-no]](#printglobal)
 
 Allows you to print to other players chats, behaves like [`chat.AddText`](https://wiki.facepunch.com/gmod/chat.AddText).  
-Similar to [ChatPrint](https://github.com/MattJeanes/ChatPrint).
+Similar to the [ChatPrint](https://github.com/MattJeanes/ChatPrint) E2 extension.
 
 ## Other/Misc Functions
 
 ### Expression 2
+[![][E2-yes]](https://github.com/Vurv78/VExtensions/blob/master/lua/entities/gmod_wire_expression2/core/custom/sv_vex_main.lua)
+
 <details>
 <summary><code>rangerOffsetManual</code> <a href="https://github.com/Vurv78/VExtensions/search?q=%22e2function+ranger+rangerOffsetManual%22+filename%3Asv_vex_main.lua&type=Code">e̲2̲f̲u̲n̲c̲t̲i̲o̲n̲<a/> <a href="https://github.com/Vurv78/VExtensions/search?q=%22desc+rangerOffsetManual+vvr%22+filename%3Acl_vexdocs.lua&type=Code">｢	𝓓𝓞𝓒𝓢 ｣</a></summary>
 <p>
 
-![][ranger] = `rangerOffsetManual(`![][vector]`startPos,`![][vector]`endPos,`![][array]`filter)`
-> Does a line trace from start position to the end position, with option to filter entities. [Example code available here](https://gist.github.com/Cheatoid/2e3dd9802fb0153dac46f09f2dc7a0b2).
+#### `rangerOffsetManual(vector startPos, vector endPos, array filter)`
+  > Does a line trace from start position to the end position, with option to filter entities.  
+  > Returns: ![][ranger] `ranger`  
+  > > 1. ![][vector] `vector startPos`: The start position of the line trace.  
+  > > 2. ![][vector] `vector endPos`: The end position of the line trace.  
+  > > 3. ![][array] `array filter`: An array of entities to be filtered from line tracing.  
+  > - [Example code is available here](https://gist.github.com/Cheatoid/2e3dd9802fb0153dac46f09f2dc7a0b2).
 
 </p>
 </details>
@@ -104,11 +122,11 @@ Similar to [ChatPrint](https://github.com/MattJeanes/ChatPrint).
 [ranger]: https://raw.githubusercontent.com/wiki/wiremod/wire/Type-RangerData.png "ranger"
 [vector]: https://raw.githubusercontent.com/wiki/wiremod/wire/Type-Vector.png "vector"
 [entity]: https://raw.githubusercontent.com/wiki/wiremod/wire/Type-Entity.png "entity"
-[E2-yes]: https://img.shields.io/badge/Expression-yes-green?style=flat-square&labelColor=303030&color=128023 "Expression 2 - Supported"
-[E2-no]: https://img.shields.io/badge/Expression-no-red?style=flat-square&labelColor=303030&color=9a1616 "Expression 2 - Not Supported"
-[SF-builtin]: https://img.shields.io/badge/Starfall-builtin-green?style=flat-square&labelColor=1b6eae&color=78aa1c "Starfall - Builtin"
-[SF-yes]: https://img.shields.io/badge/Starfall-yes-green?style=flat-square&labelColor=1b6eae&color=78aa1c "Starfall - Supported"
-[SF-no]: https://img.shields.io/badge/Starfall-no-red?style=flat-square&labelColor=1b6eae&color=da5a53 "Starfall - Not Supported"
+[E2-yes]: https://img.shields.io/badge/Expression%202-yes-green?style=flat-square&labelColor=303030&color=128023 "Expression 2 - Supported"
+[E2-no]: https://img.shields.io/badge/Expression%202-no-red?style=flat-square&labelColor=303030&color=9a1616 "Expression 2 - Not Supported"
+[SF-builtin]: https://img.shields.io/badge/StarfallEx-builtin-green?style=flat-square&labelColor=1b6eae&color=78aa1c "StarfallEx - Builtin"
+[SF-yes]: https://img.shields.io/badge/StarfallEx-yes-green?style=flat-square&labelColor=1b6eae&color=78aa1c "StarfallEx - Supported"
+[SF-no]: https://img.shields.io/badge/StarfallEx-no-red?style=flat-square&labelColor=1b6eae&color=da5a53 "StarfallEx - Not Supported"
 [CLIENT]: https://img.shields.io/badge/-CLIENT-dea909?style=flat-square "CLIENT"
 [SERVER]: https://img.shields.io/badge/-SERVER-03a9f4?style=flat-square "SERVER"
 [SHARED]: https://img.shields.io/badge/-SHARED-71a97f?style=flat-square "SHARED"
