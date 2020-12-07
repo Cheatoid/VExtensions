@@ -52,33 +52,56 @@ This includes functions to get the vr player's headset position, hand position, 
 
 
 ## Selfaware Extended
-![](https://img.shields.io/badge/Expression-yes-green)
+![][E2-yes]  ![][SF-no]
 
 Adds more functions that are more 'selfaware' just like e2's general selfaware.lua core
 
-Two currently added are `getFunctionPath(`![][string]`funcName)` to get the file path of an e2function, and ifdef(s) to basically be able to use #ifdef, just in runtime.
+`getFunctionPath(`![][string]`funcName)` to get the file path of an e2function
 
 ## Other Misc. Functions:
 
 ### Expression 2
+![][E2-yes] ![][E2-no]
+
+![][SF-yes] ![][SF-no]
+
 <details>
-<summary><code>rangerOffsetManual</code> <a href="https://github.com/Vurv78/VExtensions/search?q=e2function+rangerOffsetManual">e2function<a/></summary>
+<summary><code>rangerOffsetManual</code> <a href="https://github.com/Vurv78/VExtensions/search?q=%22e2function+ranger+rangerOffsetManual%22+filename%3Asv_vex_main.lua&type=Code">e2function<a/> <a href="https://github.com/Vurv78/VExtensions/search?q=%22desc+rangerOffsetManual+vvr%22+filename%3Acl_vexdocs.lua&type=Code">e2docs</a></summary>
 <p>
 
-![][ranger] = `rangerOffsetManual(`![][vector]`pos,`![][vector]`endpos,`![][array]`filter)`
+![][ranger] = `rangerOffsetManual(`![][vector]`startPos,`![][vector]`endPos,`![][array]`filter)`
 > Does a line trace from start position to the end position, with option to filter entities. [Example code available here](https://gist.github.com/Cheatoid/2e3dd9802fb0153dac46f09f2dc7a0b2).
 
 </p>
 </details>
 
+<details>
+<summary><code>rangerSetFilter</code> <a href="https://github.com/Vurv78/VExtensions/search?q=%22e2function+number+rangerSetFilter%22+filename%3Asv_vex_main.lua&type=Code">e2function<a/> <a href="https://github.com/Vurv78/VExtensions/search?q=%22desc+rangerSetFilter+r%22+filename%3Acl_vexdocs.lua&type=Code">e2docs</a></summary>
+<p>
+
 ![][number] = `rangerSetFilter(`![][array]`filter)`
 > Sets the filter of your E2 rangers.
+
+</p>
+</details>
+
+<details>
+<summary><code>hideChatPly</code> <a href="https://github.com/Vurv78/VExtensions/search?q=%22e2function+void+hideChatPly%22+filename%3Asv_vex_main.lua&type=Code">e2function<a/> <a href="https://github.com/Vurv78/VExtensions/search?q=%22desc+hideChatPly+en%22+filename%3Acl_vexdocs.lua&type=Code">e2docs</a></summary>
+<p>
 
 `hideChatPly(`![][entity]`ply,`![][number]`yes)`
 > Hides the chat of a player selected (by default enabled, but warns you when it is hidden and you can disable it with `canhidechatply_cl` ConVar
 
+</p>
+</details>
+
 ### StarfallEx
-(`CLIENT`) `player:setEyeAngles(angle ang)`
+![][CLIENT] `player:setEyeAngles(angle ang)`
+
+![][SERVER] `test...`
+
+![][SHARED] `abcd...`
+
 
 [array]: https://raw.githubusercontent.com/wiki/wiremod/wire/Type-Array.png "array"
 [number]: https://raw.githubusercontent.com/wiki/wiremod/wire/Type-Number.png "number"
@@ -86,3 +109,10 @@ Two currently added are `getFunctionPath(`![][string]`funcName)` to get the file
 [ranger]: https://raw.githubusercontent.com/wiki/wiremod/wire/Type-RangerData.png "ranger"
 [vector]: https://raw.githubusercontent.com/wiki/wiremod/wire/Type-Vector.png "vector"
 [entity]: https://raw.githubusercontent.com/wiki/wiremod/wire/Type-Entity.png "entity"
+[E2-yes]: https://img.shields.io/badge/Expression-yes-green?style=flat-square&labelColor=303030&color=128023 "Expression 2 - Supported"
+[E2-no]: https://img.shields.io/badge/Expression-no-red?style=flat-square&labelColor=303030&color=9a1616 "Expression 2 - Not Supported"
+[SF-yes]: https://img.shields.io/badge/Starfall-yes-green?style=flat-square&labelColor=1b6eae&color=78aa1c "Starfall - Supported"
+[SF-no]: https://img.shields.io/badge/Starfall-no-red?style=flat-square&labelColor=1b6eae&color=da5a53 "Starfall - Not Supported"
+[CLIENT]: https://img.shields.io/badge/-CLIENT-dea909?style=flat-square "CLIENT"
+[SERVER]: https://img.shields.io/badge/-SERVER-03a9f4?style=flat-square "SERVER"
+[SHARED]: https://img.shields.io/badge/-SHARED-71a97f?style=flat-square "SHARED"
