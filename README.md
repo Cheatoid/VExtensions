@@ -1,32 +1,49 @@
-# VExtensions
-[![][EPIC]](https://github.com/Vurv78/VExtensions/pulse) [![][Contributors]](https://github.com/Vurv78/VExtensions/graphs/contributors) [![][GModServer]](https://gmod-servers.com/server/153061/)
+<!--<p align="center"><img src="https://raw.githubusercontent.com/IridiumIO/SteamAPNG/master/Media/Banner.svg" height="250"></p>-->
+<p align="center">
+  <b>&#x2728; [̲̅v][̲̅e][̲̅x][̲̅t][̲̅e][̲̅n][̲̅s][̲̅i][̲̅o][̲̅n][̲̅s] &#x2728;</b>
+  <br>
+  <br>
+  <a href="https://github.com/Vurv78/VExtensions/pulse"><img src="https://img.shields.io/badge/epic%3F-yes-blue?style=for-the-badge&labelColor=303030" alt="EPIC? Yes!"></a>
+  <a href="https://github.com/Vurv78/VExtensions/graphs/contributors"><img src="https://img.shields.io/github/contributors/Vurv78/VExtensions?label=AWESOME%20CONTRIBUTORS&logo=github&logoColor=white&style=for-the-badge&labelColor=303030" alt="VExtensions Contributors"></a>
+  <a href="https://gmod-servers.com/server/153061/"><img src="https://img.shields.io/badge/Featured%20Server-Beyond%20Infinity-red?style=for-the-badge&labelColor=303030&color=blue" alt="Featured on Beyond Infinity Server"></a>
+</p>
 
-## About
-A compilation of mini-addons for Expression2 and StarfallEx development.  
+-----
+
+## ❔ ***About***
+A compilation of mini-addons for Expression 2 and StarfallEx development.  
 Note that this will be unstable outside of releases.  
 This is comparable to addons like Antagonise-Core / AntCore or E2Power, except, not filled with bugs and backdoors (E2Power).
 
-## Table of Contents
+## 📕 ***Wiki***
+[➡ Check it out here](https://github.com/Vurv78/VExtensions/wiki).
+
+## 💠 ***Table of Contents***
 <p align="right">
-  <a href="#coroutine-core">Coroutine Core</a><br>
-  <a href="#webmaterials">WebMaterials</a><br>
-  <a href="#selfaware-extended">Selfaware Extended</a><br>
-  <a href="#getfunctionpathstring-funcname"><code>getFunctionPath(string)</code></a><br>
-  <a href="#tool-core">Tool Core</a><br>
-  <a href="#vrmod-core">VRMod Core</a><br>
-  <a href="#printglobal">PrintGlobal</a><br>
-  <a href="#othermisc-functions">Other/Misc Functions</a><br>
-  <a href="#expression-2">Expression 2</a><br>
-  <a href="#starfallex">StarfallEx</a><br>
+<ul>
+  <li><a href="#coroutine-core">Coroutine Core</a></li>
+  <li><a href="#webmaterials">WebMaterials</a></li>
+  <li><a href="#selfaware-extended">Selfaware Extended</a>
+  <ul>
+    <li><a href="#getfunctionpathstring-funcname"><code>getFunctionPath(string)</code></a></li>
+  </ul>
+  </li>
+  <li><a href="#tool-core">Tool Core</a></li>
+  <li><a href="#vrmod-core">VRMod Core</a></li>
+  <li><a href="#printglobal">PrintGlobal</a></li>
+  <li><a href="#othermisc-functions">Other/Misc Functions</a></li>
+  <li><a href="#expression-2">Expression 2</a></li>
+  <li><a href="#starfallex">StarfallEx</a></li>
+  </ul>
 </p>
 
-## Coroutine Core
+### ***Coroutine Core***
 [![][E2-yes]](https://github.com/Vurv78/VExtensions/blob/master/lua/entities/gmod_wire_expression2/core/custom/sv_coroutines.lua) [![][SF-builtin]](#coroutine-core)
 
 Allows you to make use of Lua's coroutines with user-defined functions, in a safe manner.  
 https://github.com/Vurv78/E2-CoroutineCore
 
-## WebMaterials
+### ***WebMaterials***
 [![][E2-yes]](https://github.com/Vurv78/VExtensions/blob/master/lua/entities/gmod_wire_expression2/core/custom/sv_webmaterials.lua)
 
 Allows you to interact with images pulled off of the web that can be applied as a material to props and egp image boxes.  
@@ -38,7 +55,7 @@ Whitelisted by default, [see the whitelist](https://github.com/Vurv78/VExtension
 | [`vex_webmaterials_max_sv`](https://github.com/Vurv78/VExtensions/search?q=%22CreateConVar+vex_webmaterials_max_sv%22) | ... | TBD |
 | [`vex_webmaterials_enabled_cl`](https://github.com/Vurv78/VExtensions/search?q=%22CreateConVar+vex_webmaterials_enabled_cl%22) | Enabled | Whether to allow net messages from the server to change the material of props to a webmaterial. |
 
-## Selfaware Extended
+### ***Selfaware Extended***
 [![][E2-yes]](https://github.com/Vurv78/VExtensions/blob/master/lua/entities/gmod_wire_expression2/core/custom/sv_selfaware2.lua)
 
 Adds more functions that are more 'selfaware' just like E2's builtin self-aware functionality.
@@ -48,27 +65,27 @@ Adds more functions that are more 'selfaware' just like E2's builtin self-aware 
 > Returns: ![][string] `string`  
 > > 1. ![][string] `funcName`: Specify a function identifier/name/signature to lookup.
 
-## Tool Core
+### ***Tool Core***
 [![][E2-yes]](https://github.com/Vurv78/VExtensions/blob/master/lua/entities/gmod_wire_expression2/core/custom/sv_e2controller.lua) [![][SF-no]](#tool-core)
 
 Allows you to make use of a custom tool in the Wiremod tab, select the 'E2 Controller'.  
 By right clicking a chip with the tool, you can take control of it and handle things inside of it with runOn* events when the tool clicks, that receive ranger data of the click.. etc
 
-## VRMod Core
+### ***VRMod Core***
 [![][E2-yes]](https://github.com/Vurv78/VExtensions/blob/master/lua/entities/gmod_wire_expression2/core/custom/sv_vrmod.lua) [![][SF-builtin]](#vrmod-core)  
 _Requirement: VRMod addon must be installed on the server._
 
 Allows you to use VRMod's *shared* functions and hooks.  
 This exposes functions to retrieve player's VR headset position, hand position, whether they just dropped a prop and more...
 
-## PrintGlobal
+### ***PrintGlobal***
 [![][E2-yes]](https://github.com/Vurv78/VExtensions/blob/master/lua/entities/gmod_wire_expression2/core/custom/sv_printglobal.lua) [![][SF-no]](#printglobal)
 
 Allows you to print to other players chats, behaves like [`chat.AddText`](https://wiki.facepunch.com/gmod/chat.AddText).  
 Similar to the [ChatPrint](https://github.com/MattJeanes/ChatPrint) E2 extension.
 
-## Other/Misc Functions
-### Expression 2
+### ***Other/Misc Functions***
+### ***Expression 2***
 [![][E2-yes]](https://github.com/Vurv78/VExtensions/blob/master/lua/entities/gmod_wire_expression2/core/custom/sv_vex_main.lua)
 
 <details>
@@ -78,9 +95,9 @@ Similar to the [ChatPrint](https://github.com/MattJeanes/ChatPrint) E2 extension
 #### `rangerOffsetManual(vector startPos, vector endPos, array filter)`
   > Does a line trace from start position to the end position, with option to filter entities.  
   > Returns: ![][ranger] `ranger`  
-  > > 1. ![][vector] `vector startPos`: The start position of the line trace.  
-  > > 2. ![][vector] `vector endPos`: The end position of the line trace.  
-  > > 3. ![][array] `array filter`: An array of entities to be filtered from line tracing.  
+  >> 1. ![][vector] `vector startPos`: The start position of the line trace.  
+  >> 2. ![][vector] `vector endPos`: The end position of the line trace.  
+  >> 3. ![][array] `array filter`: An array of entities to be filtered from line tracing.  
   > - [Example code is available here](https://gist.github.com/Cheatoid/2e3dd9802fb0153dac46f09f2dc7a0b2).
 
 </p>
@@ -106,7 +123,7 @@ Similar to the [ChatPrint](https://github.com/MattJeanes/ChatPrint) E2 extension
 </p>
 </details>
 
-### StarfallEx
+### ***StarfallEx***
 [![][SF-yes]](https://github.com/Vurv78/VExtensions/blob/master/lua/starfall/libs_sh/playerex_sh.lua)
 
 ![][CLIENT] [`Player:setEyeAngles(Angle ang)`](https://github.com/Vurv78/VExtensions/search?q=%22player_methods+setEyeAngles%22+filename%3Aplayerex_sh.lua)
@@ -115,13 +132,14 @@ Similar to the [ChatPrint](https://github.com/MattJeanes/ChatPrint) E2 extension
 
 ![][SHARED] `abcd...`
 
-## Credits
-| [𝗩𝘂𝗿𝘃𝟳𝟴](https://github.com/Vurv78) | [𝗙𝗮𝘀𝘁𝗲𝗿𝗼𝗶𝗱](https://github.com/Fasteroid) | [𝗖𝗵𝗲𝗮𝘁𝗼𝗶𝗱](https://github.com/Cheatoid) |
+## ***Contributors***
+| [<kbd>Vurv78</kbd>](https://github.com/Vurv78) | [<kbd>Fasteroid</kbd>](https://github.com/Fasteroid) | [<kbd>Cheatoid</kbd>](https://github.com/Cheatoid) |
 | :-: | :-: | :-: |
-| <a href="https://github.com/Vurv78"><img src="https://avatars0.githubusercontent.com/u/56230599?s=120&v=4" width="120" alt="Vurv78"></a> | <a href="https://github.com/Fasteroid"><img src="https://avatars0.githubusercontent.com/u/29342750?s=120&v=4" width="120" alt="Fasteroid"></a> | <a href="https://github.com/Cheatoid"><img src="https://avatars0.githubusercontent.com/u/13347909?s=120&v=4" width="120" alt="Cheatoid"></a> |
+| <a href="https://github.com/Vurv78/VExtensions/commits?author=Vurv78"><img src="https://avatars0.githubusercontent.com/u/56230599?s=120&v=4" width="120" alt="Vurv78"></a> | <a href="https://github.com/Vurv78/VExtensions/commits?author=Fasteroid"><img src="https://avatars0.githubusercontent.com/u/29342750?s=120&v=4" width="120" alt="Fasteroid"></a> | <a href="https://github.com/Vurv78/VExtensions/commits?author=Cheatoid"><img src="https://avatars0.githubusercontent.com/u/13347909?s=120&v=4" width="120" alt="Cheatoid"></a> |
 
-## License
-TBD.
+## ***License***
+<kbd>// TBD.</kbd>
+
 
 [EPIC]: https://img.shields.io/badge/epic%3F-yes-blue?style=for-the-badge&labelColor=303030 "EPIC? Yes!"
 [Contributors]: https://img.shields.io/github/contributors/Vurv78/VExtensions?label=AWESOME%20CONTRIBUTORS&logo=github&logoColor=white&style=for-the-badge&labelColor=303030 "VExtensions Contributors"
