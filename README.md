@@ -1,22 +1,24 @@
 # VExtensions
-[![][EPIC]](https://github.com/Vurv78/VExtensions/pulse)
+[![][EPIC]](https://github.com/Vurv78/VExtensions/pulse) [![][Contributors]](https://github.com/Vurv78/VExtensions/graphs/contributors) [![][GModServer]](steam://connect/69.140.244.127:27015)
 
-# About
+## About
 A compilation of mini-addons for Expression2 and StarfallEx development.  
 Note that this will be unstable outside of releases.  
 This is comparable to addons like Antagonise-Core / AntCore or E2Power, except, not filled with bugs and backdoors (E2Power).
 
-# Table of Contents
-- [Coroutine Core](#coroutine-core)
-- [WebMaterials](#webmaterials)
-- [Selfaware Extended](#selfaware-extended)
-- * [`getFunctionPath(string)`](#getfunctionpathstring-funcname)
-- [Tool Core](#tool-core)
-- [VRMod Core](#vrmod-core)
-- [PrintGlobal](#printglobal)
-- [Other/Misc Functions](#othermisc-functions)
-- * [Expression 2](#expression-2)
-- * [StarfallEx](#starfallex)
+## Table of Contents
+<p align="right">
+  <a href="#coroutine-core">Coroutine Core</a><br>
+  <a href="#webmaterials">WebMaterials</a><br>
+  <a href="#selfaware-extended">Selfaware Extended</a><br>
+  <a href="#getfunctionpathstring-funcname"><code>getFunctionPath(string)</code></a><br>
+  <a href="#tool-core">Tool Core</a><br>
+  <a href="#vrmod-core">VRMod Core</a><br>
+  <a href="#printglobal">PrintGlobal</a><br>
+  <a href="#othermisc-functions">Other/Misc Functions</a><br>
+  <a href="#expression-2">Expression 2</a><br>
+  <a href="#starfallex">StarfallEx</a><br>
+</p>
 
 ## Coroutine Core
 [![][E2-yes]](https://github.com/Vurv78/VExtensions/blob/master/lua/entities/gmod_wire_expression2/core/custom/sv_coroutines.lua) [![][SF-builtin]](#coroutine-core)
@@ -66,7 +68,6 @@ Allows you to print to other players chats, behaves like [`chat.AddText`](https:
 Similar to the [ChatPrint](https://github.com/MattJeanes/ChatPrint) E2 extension.
 
 ## Other/Misc Functions
-
 ### Expression 2
 [![][E2-yes]](https://github.com/Vurv78/VExtensions/blob/master/lua/entities/gmod_wire_expression2/core/custom/sv_vex_main.lua)
 
@@ -114,8 +115,17 @@ Similar to the [ChatPrint](https://github.com/MattJeanes/ChatPrint) E2 extension
 
 ![][SHARED] `abcd...`
 
+## Credits
+| [𝗩𝘂𝗿𝘃𝟳𝟴](https://github.com/Vurv78) | [𝗙𝗮𝘀𝘁𝗲𝗿𝗼𝗶𝗱](https://github.com/Fasteroid) | [𝗖𝗵𝗲𝗮𝘁𝗼𝗶𝗱](https://github.com/Cheatoid) |
+| :-: | :-: | :-: |
+| <a href="https://github.com/Vurv78"><img src="https://avatars0.githubusercontent.com/u/56230599?s=120&v=4" width="120" alt="Vurv78"></a> | <a href="https://github.com/Fasteroid"><img src="https://avatars0.githubusercontent.com/u/29342750?s=120&v=4" width="120" alt="Fasteroid"></a> | <a href="https://github.com/Cheatoid"><img src="https://avatars0.githubusercontent.com/u/13347909?s=120&v=4" width="120" alt="Cheatoid"></a> |
 
-[EPIC]: https://img.shields.io/badge/epic%3F-yes-blue?style=flat-square "EPIC? Yes!"
+## License
+TBD.
+
+[EPIC]: https://img.shields.io/badge/epic%3F-yes-blue?style=for-the-badge "EPIC? Yes!"
+[Contributors]: https://img.shields.io/github/contributors/Vurv78/VExtensions?label=AWESOME%20CONTRIBUTORS&logo=github&logoColor=white&style=for-the-badge "VExtensions Contributors"
+[GModServer]: https://img.shields.io/badge/Featured%20Server-Beyond%20Infinity-red?style=for-the-badge&labelColor=303030&color=blue "Featured on Beyond Infinity Server"
 [array]: https://raw.githubusercontent.com/wiki/wiremod/wire/Type-Array.png "array"
 [number]: https://raw.githubusercontent.com/wiki/wiremod/wire/Type-Number.png "number"
 [string]: https://raw.githubusercontent.com/wiki/wiremod/wire/Type-String.png "string"
