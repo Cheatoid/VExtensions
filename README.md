@@ -1,70 +1,62 @@
 # VExtensions
-![](https://img.shields.io/badge/epic%3F-yes-blue)
+![][EPIC]
 
-A compilation of mini-addons for Expression2 and StarfallEx development
+A compilation of mini-addons for Expression2 and StarfallEx development.  
+Note that this will be unstable outside of releases.  
+This is comparable to addons like Antagonise-Core / AntCore or E2Power, except, not filled with bugs and backdoors (E2Power).
 
-Note that this will be unstable outside of releases
+# Overview
 
-This is comparable to addons like Antagonise-Core / AntCore or E2Power, except, not filled with bugs and backdoors (E2Power)
+## Coroutine Core
+![][E2-yes] ![][SF-builtin]
 
-### An overview of what's added:
-
-## PrintGlobal
-![](https://img.shields.io/badge/StarfallEx-no-red)
-![](https://img.shields.io/badge/Expression-yes-green)
-
-Allows you to print to other players chats with Expression 2, behaves like chat.AddText
-
-## CoroutineCore
-![](https://img.shields.io/badge/Expression-yes-green)
-
-Allows you to make use of lua's coroutines in expression2, by turning udfs into coroutines, you can xco:wait(n) and xco:yield(), and retrieve results from xco:resume().
+Allows you to make use of Lua's coroutines with user-defined functions, in a safe manner.  
 https://github.com/Vurv78/E2-CoroutineCore
 
 ## WebMaterials
-![](https://img.shields.io/badge/Expression-yes-green)
+![][E2-yes]
 
-Allows you to interact with images pulled off of the web that can be applied as a material to props and egp image boxes.
+Allows you to interact with images pulled off of the web that can be applied as a material to props and egp image boxes.  
+Whitelisted by default, [see the whitelist](https://github.com/Vurv78/VExtensions/search?q=%22local+URLMatches%22+filename%3Asv_webmaterials.lua).
 
-Whitelisted by default, see the whitelist @ https://github.com/Vurv78/VExtensions/blob/master/lua/entities/gmod_wire_expression2/core/custom/sv_webmaterials.lua#L25
-
-ConVars:
-vex_webmaterials_whitelist_sv
-
-vex_webmaterials_max_sv
-
-vex_webmaterials_enabled_cl 1 .. etc
-
-## Tool Core
-![](https://img.shields.io/badge/Expression-yes-green)
-
-Allows you to make use of a custom tool in the wiremod tab, the 'E2 Controller'
-
-By right clicking a chip with the tool, you can take control of it and handle things inside of it with runOn* events when the tool clicks, that receive ranger data of the click.. etc
-
-## VRMod Functions
-![](https://img.shields.io/badge/Expression-yes-green)
-
-Allows you to use VRMod's SHARED functions and hooks if vrmod is installed on your server
-StarfallEx already has these builtin now, so they have been removed from VExtensions. See https://github.com/thegrb93/StarfallEx/commit/111d81e8c97f01d3b290909c333b675f901bfa77
-
-This includes functions to get the vr player's headset position, hand position, whether they just dropped a prop and more
-
+| ConVar | Default | Purpose |
+|-------:|:-------:|:--------|
+| [`vex_webmaterials_whitelist_sv`](https://github.com/Vurv78/VExtensions/search?q=%22CreateConVar+vex_webmaterials_whitelist_sv%22) | ... | TBD |
+| [`vex_webmaterials_max_sv`](https://github.com/Vurv78/VExtensions/search?q=%22CreateConVar+vex_webmaterials_max_sv%22) | ... | TBD |
+| [`vex_webmaterials_enabled_cl`](https://github.com/Vurv78/VExtensions/search?q=%22CreateConVar+vex_webmaterials_enabled_cl%22) | Enabled | Whether to allow net messages from the server to change the material of props to a webmaterial. |
 
 ## Selfaware Extended
-![][E2-yes]  ![][SF-no]
+![][E2-yes]
 
-Adds more functions that are more 'selfaware' just like e2's general selfaware.lua core
+Adds more functions that are more 'selfaware' just like E2's builtin self-aware functionality.
 
-`getFunctionPath(`![][string]`funcName)` to get the file path of an e2function
+#### `getFunctionPath(string funcName)`
+> Get the file path of where the given e2function is defined at.  
+> Returns: ![][string] `string`  
+> > 1. ![][string] `funcName`: Specify a function identifier/name/signature to lookup.
 
-## Other Misc. Functions:
+## Tool Core
+![][E2-yes] ![][SF-no]
+
+Allows you to make use of a custom tool in the Wiremod tab, the 'E2 Controller'  
+By right clicking a chip with the tool, you can take control of it and handle things inside of it with runOn* events when the tool clicks, that receive ranger data of the click.. etc
+
+## VRMod Core
+![][E2-yes] ![][SF-builtin]  
+*Requirement: VRMod addon must be installed on the server.*
+
+Allows you to use VRMod's *shared* functions and hooks.  
+This exposes functions to retrieve player's VR headset position, hand position, whether they just dropped a prop and more...
+
+## PrintGlobal
+![][E2-yes] ![][SF-no]
+
+Allows you to print to other players chats, behaves like [`chat.AddText`](https://wiki.facepunch.com/gmod/chat.AddText).  
+Similar to [ChatPrint](https://github.com/MattJeanes/ChatPrint).
+
+## Other/Misc Functions
 
 ### Expression 2
-![][E2-yes] ![][E2-no]
-
-![][SF-yes] ![][SF-no]
-
 <details>
 <summary><code>rangerOffsetManual</code> <a href="https://github.com/Vurv78/VExtensions/search?q=%22e2function+ranger+rangerOffsetManual%22+filename%3Asv_vex_main.lua&type=Code">e2function<a/> <a href="https://github.com/Vurv78/VExtensions/search?q=%22desc+rangerOffsetManual+vvr%22+filename%3Acl_vexdocs.lua&type=Code">e2docs</a></summary>
 <p>
@@ -96,6 +88,8 @@ Adds more functions that are more 'selfaware' just like e2's general selfaware.l
 </details>
 
 ### StarfallEx
+![][SF-yes]
+
 ![][CLIENT] `player:setEyeAngles(angle ang)`
 
 ![][SERVER] `test...`
@@ -103,6 +97,7 @@ Adds more functions that are more 'selfaware' just like e2's general selfaware.l
 ![][SHARED] `abcd...`
 
 
+[EPIC]: https://img.shields.io/badge/epic%3F-yes-blue?style=flat-square "EPIC? Yes!"
 [array]: https://raw.githubusercontent.com/wiki/wiremod/wire/Type-Array.png "array"
 [number]: https://raw.githubusercontent.com/wiki/wiremod/wire/Type-Number.png "number"
 [string]: https://raw.githubusercontent.com/wiki/wiremod/wire/Type-String.png "string"
@@ -111,6 +106,7 @@ Adds more functions that are more 'selfaware' just like e2's general selfaware.l
 [entity]: https://raw.githubusercontent.com/wiki/wiremod/wire/Type-Entity.png "entity"
 [E2-yes]: https://img.shields.io/badge/Expression-yes-green?style=flat-square&labelColor=303030&color=128023 "Expression 2 - Supported"
 [E2-no]: https://img.shields.io/badge/Expression-no-red?style=flat-square&labelColor=303030&color=9a1616 "Expression 2 - Not Supported"
+[SF-builtin]: https://img.shields.io/badge/Starfall-builtin-green?style=flat-square&labelColor=1b6eae&color=78aa1c "Starfall - Builtin"
 [SF-yes]: https://img.shields.io/badge/Starfall-yes-green?style=flat-square&labelColor=1b6eae&color=78aa1c "Starfall - Supported"
 [SF-no]: https://img.shields.io/badge/Starfall-no-red?style=flat-square&labelColor=1b6eae&color=da5a53 "Starfall - Not Supported"
 [CLIENT]: https://img.shields.io/badge/-CLIENT-dea909?style=flat-square "CLIENT"
