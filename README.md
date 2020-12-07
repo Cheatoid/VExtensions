@@ -32,8 +32,10 @@ This is comparable to addons like Antagonise-Core / AntCore or E2Power, except, 
   <li><a href="#vrmod-core">VRMod Core</a></li>
   <li><a href="#printglobal">PrintGlobal</a></li>
   <li><a href="#othermisc-functions">Other/Misc Functions</a></li>
-  <li><a href="#expression-2">Expression 2</a></li>
-  <li><a href="#starfallex">StarfallEx</a></li>
+  <ul>
+    <li><a href="#expression-2">Expression 2</a></li>
+    <li><a href="#starfallex">StarfallEx</a></li>
+  </ul>
   </ul>
 </p>
 
