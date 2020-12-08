@@ -1,11 +1,9 @@
-<!-- Make Animated-PNG banner for VExtensions, SteamAPNG from IridiumIO might help with this. -->
+<!-- TODO: Make Animated-PNG banner for VExtensions -->
+<h1 align="center">&#x2728; [̲̅v][̲̅e][̲̅x][̲̅t][̲̅e][̲̅n][̲̅s][̲̅i][̲̅o][̲̅n][̲̅s] &#x2728;</h1>
 <p align="center">
-  <b>&#x2728; [̲̅v][̲̅e][̲̅x][̲̅t][̲̅e][̲̅n][̲̅s][̲̅i][̲̅o][̲̅n][̲̅s] &#x2728;</b>
-  <br>
-  <br>
   <a href="https://github.com/Vurv78/VExtensions/pulse" title="EPIC? Yes!"><img src="https://img.shields.io/badge/epic%3F-yes-blue?style=for-the-badge&labelColor=303030" alt="EPIC? Yes!"></a>
   <a href="https://github.com/Vurv78/VExtensions/graphs/contributors" title="VExtensions Contributors"><img src="https://img.shields.io/github/contributors/Vurv78/VExtensions?label=AWESOME%20CONTRIBUTORS&logo=github&logoColor=white&style=for-the-badge&labelColor=303030" alt="VExtensions Contributors"></a>
-  <a href="https://gmod-cheatoid.github.io/gmod-cheatoid/beyond-infinity.html" title="Featured on Beyond Infinity server"><img src="https://img.shields.io/badge/Featured%20Server-Beyond%20Infinity-red?style=for-the-badge&labelColor=303030&color=blue" alt="Featured on Beyond Infinity server"></a>
+  <a href="https://gmod-cheatoid.github.io/gmod-cheatoid/beyond-infinity.html" title="Featured on Beyond Infinity server" target="_blank"><img src="https://img.shields.io/badge/Featured%20Server-Beyond%20Infinity-red?style=for-the-badge&labelColor=303030&color=blue" alt="Featured on Beyond Infinity server"></a>
 </p>
 
 -----
