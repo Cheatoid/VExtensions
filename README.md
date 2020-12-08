@@ -24,14 +24,14 @@ Note that this will be unstable outside of releases.
 This is comparable to addons like Antagonise-Core / AntCore or E2Power, except, not filled with bugs and backdoors (E2Power).
 
 <p>
-  Written in: <code><a href="https://github.com/Vurv78/VExtensions/search?l=lua" title="Garry's Mod Lua"><img src="https://github.com/github/explore/raw/master/topics/lua/lua.png" alt="Garry's Mod Lua" width="32"></a></code>
+  Written in: <a href="https://github.com/Vurv78/VExtensions/search?l=lua" title="Garry's Mod Lua"><img src="https://github.com/github/explore/raw/master/topics/lua/lua.png" alt="Garry's Mod Lua" height="32"></a>
   <br>
   <br>
   To be considered (might be used in future):
   <br>
-  <code><a href="https://moonscript.org" title="MoonScript" target="blank"><img src="https://moonscript.org/images/logo.png" alt="MoonScript" width="64"></a></code>
+  <a href="https://moonscript.org" title="MoonScript" target="blank"><img src="https://moonscript.org/images/logo.png" alt="MoonScript" height="32"></a>
   - <b>or</b> -
-  <code><a href="https://github.com/TypeScriptToLua/TypeScriptToLua" title="TypeScript" target="blank"><img src="https://github.com/TypeScriptToLua/TypeScriptToLua/raw/master/logo-hq.png" alt="TypeScript" width="32"></a></code>
+  <a href="https://github.com/TypeScriptToLua/TypeScriptToLua" title="TypeScript" target="blank"><img src="https://github.com/TypeScriptToLua/TypeScriptToLua/raw/master/logo-hq.png" alt="TypeScript" height="32"></a>
 </p>
 
 ## 📕 ***Wiki***
