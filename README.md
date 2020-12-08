@@ -110,9 +110,12 @@ Whitelisted by default, [see the whitelist](https://github.com/Vurv78/VExtension
 Adds more functions that are more 'selfaware' just like E2's builtin self-aware functionality.
 
 #### `getFunctionPath(string funcName)`
-> Get the file path of where the given e2function is defined at.  
-> Returns: ![][string] `string`  
-> > 1. ![][string] `funcName`: Specify a function identifier/name/signature to lookup.
+  <a href="https://github.com/Vurv78/VExtensions/search?q=%22e2function+string+getFunctionPath%22+filename%3Asv_selfaware2.lua" target="blank">(e2function)<a/> <a href="https://github.com/Vurv78/VExtensions/search?q=%22desc+getFunctionPath+s%22+filename%3Acl_vexdocs.lua&type=Code" target="blank">(docs)</a>
+  
+  > Get the file path of where the given e2function is defined at.  
+  > Returns: ![][string] `string`  
+  > Arguments:  
+  >> 1. ![][string] `funcName`: Specify a function identifier/name/signature to lookup.
 
 ### ***Tool Core***
 [![][E2-yes]](https://github.com/Vurv78/VExtensions/blob/master/lua/entities/gmod_wire_expression2/core/custom/sv_e2controller.lua) [![][SF-no]](#tool-core)
