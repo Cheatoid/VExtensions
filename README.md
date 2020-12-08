@@ -1,9 +1,19 @@
-<!-- TODO: Make Animated-PNG banner for VExtensions -->
+<!-- TODO: Make Animated-PNG banners for each title. Fancy. -->
 <h1 align="center">&#x2728; [̲̅v][̲̅e][̲̅x][̲̅t][̲̅e][̲̅n][̲̅s][̲̅i][̲̅o][̲̅n][̲̅s] &#x2728;</h1>
 <p align="center">
-  <a href="https://github.com/Vurv78/VExtensions/pulse" title="EPIC? Yes!"><img src="https://img.shields.io/badge/epic%3F-yes-blue?style=for-the-badge&labelColor=303030" alt="EPIC? Yes!"></a>
-  <a href="https://github.com/Vurv78/VExtensions/graphs/contributors" title="VExtensions Contributors"><img src="https://img.shields.io/github/contributors/Vurv78/VExtensions?label=AWESOME%20CONTRIBUTORS&logo=github&logoColor=white&style=for-the-badge&labelColor=303030" alt="VExtensions Contributors"></a>
-  <a href="https://gmod-cheatoid.github.io/gmod-cheatoid/beyond-infinity.html" title="Featured on Beyond Infinity server" target="_blank"><img src="https://img.shields.io/badge/Featured%20Server-Beyond%20Infinity-red?style=for-the-badge&labelColor=303030&color=blue" alt="Featured on Beyond Infinity server"></a>
+  <a href="https://github.com/Vurv78/VExtensions/pulse" title="EPIC? Yes!"><img src="https://img.shields.io/badge/epic%3F-yes%21-blue?style=for-the-badge&labelColor=303030" alt="EPIC? Yes!"></a>
+  <a href="https://github.com/Vurv78/VExtensions/graphs/contributors" title="Contributors"><img src="https://img.shields.io/github/contributors/Vurv78/VExtensions?label=AWESOME%20CONTRIBUTORS&logo=github&logoColor=white&style=for-the-badge&labelColor=303030" alt="Contributors"></a>
+  <a href="https://gmod-cheatoid.github.io/gmod-cheatoid/beyond-infinity.html" title="Featured on Beyond Infinity server" target="blank"><img src="https://img.shields.io/badge/Featured%20Server-Beyond%20Infinity-red?style=for-the-badge&labelColor=303030&color=blue" alt="Featured on Beyond Infinity server"></a>
+  <br>
+  <a href="https://github.com/Vurv78/VExtensions/stargazers" title="Stars"><img src="https://img.shields.io/github/stars/Vurv78/VExtensions?style=flat-square&labelColor=303030" alt="Stars"></a>
+  <a href="https://github.com/Vurv78/VExtensions/network/members" title="Forks"><img src="https://img.shields.io/github/forks/Vurv78/VExtensions?style=flat-square&labelColor=303030" alt="Forks"></a>
+  <a href="https://github.com/Vurv78/VExtensions/pulls" title="Pull requests"><img src="https://img.shields.io/github/issues-pr/Vurv78/VExtensions?style=flat-square&labelColor=303030" alt="Pull requests"></a>
+  <a href="https://github.com/Vurv78/VExtensions/issues" title="Issues"><img src="https://img.shields.io/github/issues/Vurv78/VExtensions?style=flat-square&labelColor=303030" alt="Issues"></a>
+  <a href="https://github.com/Vurv78/VExtensions/blob/master/LICENSE" title="License"><img src="https://img.shields.io/github/license/Vurv78/VExtensions?style=flat-square&labelColor=303030&color=2b9348" alt="License"></a>
+  <br>
+  <a href="https://github.com/Vurv78/VExtensions/stargazers" title="Give us a star if you find this useful"><img src="https://img.shields.io/static/v1?label=%F0%9F%8C%9F&message=If%20Useful&style=flat-square&labelColor=303030&color=da532c" alt="Give us a star if you find this useful"></a>
+  <a href="https://discord.gg/gmod" title="Join Garry's Mod community" target="blank"><img src="https://img.shields.io/static/v1?label=%20&message=Garry%27s%20Mod&style=flat-square&labelColor=303030&color=303030&logo=discord" alt="Join Garry's Mod community"></a>
+  <a href="https://discord.gg/H8UKY3Y" title="Join Wiremod community" target="blank"><img src="https://img.shields.io/static/v1?label=%20&message=Wiremod&style=flat-square&labelColor=303030&color=303030&logo=discord" alt="Join Wiremod community"></a>
 </p>
 
 -----
@@ -13,29 +23,68 @@ A compilation of mini-addons for Expression 2 and StarfallEx development.
 Note that this will be unstable outside of releases.  
 This is comparable to addons like Antagonise-Core / AntCore or E2Power, except, not filled with bugs and backdoors (E2Power).
 
+<p>
+  Written in: <code><a href="https://github.com/Vurv78/VExtensions/search?l=lua" title="Garry's Mod Lua"><img src="https://github.com/github/explore/raw/master/topics/lua/lua.png" alt="Garry's Mod Lua" width="32"></a></code>
+  <br>
+  <br>
+  To be considered (might be used in future):
+  <br>
+  <code><a href="https://moonscript.org" title="MoonScript" target="blank"><img src="https://moonscript.org/images/logo.png" alt="MoonScript" width="64"></a></code>
+  - <b>or</b> -
+  <code><a href="https://github.com/TypeScriptToLua/TypeScriptToLua" title="TypeScript" target="blank"><img src="https://github.com/TypeScriptToLua/TypeScriptToLua/raw/master/logo-hq.png" alt="TypeScript" width="32"></a></code>
+</p>
+
 ## 📕 ***Wiki***
+<a href="https://vurv78.github.io/vextensions" target="blank">
+<img src="https://img.shields.io/website?url=https%3A%2F%2Fvurv78.github.io%2Fvextensions&logo=google-chrome&style=flat-square&labelColor=303030">
+</a>
+<br>
+
 ➡ [Check it out here](https://github.com/Vurv78/VExtensions/wiki).
 
+## 🛠️ ***Installation Steps***
+1. Download and install <a href="https://git-scm.com/downloads" alt="Git" target="blank"><code>git</code></a>.
+2. Open command prompt (or Terminal) and navigate to your `<GarrysMod installation directory>/garrysmod/addons` folder.
+3. Clone the repository:
+    ```bash
+    git clone https://github.com/Vurv78/vextensions
+    ```
+4. When you need to update to the latest development/nightly version, simply open the command prompt (or Terminal) in the `vextensions` folder and run the following:
+    ```bash
+    git pull
+    ```
+🌟 You are all set!
+
+## 🍰 ***Contributing***
+Please contribute using [GitHub Flow](https://guides.github.com/introduction/flow). Create a branch, add commits, and [open a pull request](https://github.com/Vurv78/VExtensions/compare).  
+<!--
+Please make sure you agree with our [`CODE OF CONDUCT`](CODE_OF_CONDUCT.md).  
+The details about the process for submitting pull requests is in [`CONTRIBUTING`](CONTRIBUTING.md).
+-->
+
+## 🚀 ***Built with VExtensions***
+*If you create something cool using VExtensions and would like to share it, feel free to make PR to add it on the list.*
+
+- (To Be Filled)
+<!--
+- [`Virtual Machine`](/) (E2) by [Cheatoid](https://github.com/Cheatoid)
+-->
+
+-----
+
 ## 💠 ***Table of Contents***
-<p align="right">
-<ul>
-  <li><a href="#coroutine-core">Coroutine Core</a></li>
-  <li><a href="#webmaterials">WebMaterials</a></li>
-  <li><a href="#selfaware-extended">Selfaware Extended</a>
-  <ul>
-    <li><a href="#getfunctionpathstring-funcname"><code>getFunctionPath(string)</code></a></li>
-  </ul>
-  </li>
-  <li><a href="#tool-core">Tool Core</a></li>
-  <li><a href="#vrmod-core">VRMod Core</a></li>
-  <li><a href="#printglobal">PrintGlobal</a></li>
-  <li><a href="#othermisc-functions">Other/Misc Functions</a></li>
-  <ul>
-    <li><a href="#expression-2">Expression 2</a></li>
-    <li><a href="#starfallex">StarfallEx</a></li>
-  </ul>
-  </ul>
-</p>
+- [Coroutine Core](#coroutine-core)
+- [WebMaterials](#webmaterials)
+- [Selfaware Extended](#selfaware-extended)
+  - [<code>getFunctionPath(string)</code>](#getfunctionpathstring-funcname)
+- [Tool Core](#tool-core)
+- [VRMod Core](#vrmod-core)
+- [PrintGlobal](#printglobal)
+- [Other/Misc Functions](#othermisc-functions)
+  - [Expression 2](#expression-2)
+  - [StarfallEx](#starfallex)
+
+-----
 
 ### ***Coroutine Core***
 [![][E2-yes]](https://github.com/Vurv78/VExtensions/blob/master/lua/entities/gmod_wire_expression2/core/custom/sv_coroutines.lua) [![][SF-builtin]](#coroutine-core)
@@ -89,12 +138,16 @@ Similar to the [ChatPrint](https://github.com/MattJeanes/ChatPrint) E2 extension
 [![][E2-yes]](https://github.com/Vurv78/VExtensions/blob/master/lua/entities/gmod_wire_expression2/core/custom/sv_vex_main.lua)
 
 <details>
-<summary><code>rangerOffsetManual</code> <a href="https://github.com/Vurv78/VExtensions/search?q=%22e2function+ranger+rangerOffsetManual%22+filename%3Asv_vex_main.lua&type=Code">e̲2̲f̲u̲n̲c̲t̲i̲o̲n̲<a/> <a href="https://github.com/Vurv78/VExtensions/search?q=%22desc+rangerOffsetManual+vvr%22+filename%3Acl_vexdocs.lua&type=Code">｢	𝓓𝓞𝓒𝓢 ｣</a></summary>
+<summary><code>rangerOffsetManual</code></summary>
 <p>
 
 #### `rangerOffsetManual(vector startPos, vector endPos, array filter)`
+  <a href="https://github.com/Vurv78/VExtensions/search?q=%22e2function+ranger+rangerOffsetManual%22+filename%3Asv_vex_main.lua&type=Code" target="blank">e̲2̲f̲u̲n̲c̲t̲i̲o̲n̲<a/> <a href="https://github.com/Vurv78/VExtensions/search?q=%22desc+rangerOffsetManual+vvr%22+filename%3Acl_vexdocs.lua&type=Code" target="blank">｢	𝓓𝓞𝓒𝓢 ｣</a>
+  
   > Does a line trace from start position to the end position, with option to filter entities.  
   > Returns: ![][ranger] `ranger`  
+  
+  > Arguments:  
   >> 1. ![][vector] `vector startPos`: The start position of the line trace.  
   >> 2. ![][vector] `vector endPos`: The end position of the line trace.  
   >> 3. ![][array] `array filter`: An array of entities to be filtered from line tracing.  
@@ -104,21 +157,35 @@ Similar to the [ChatPrint](https://github.com/MattJeanes/ChatPrint) E2 extension
 </details>
 
 <details>
-<summary><code>rangerSetFilter</code> <a href="https://github.com/Vurv78/VExtensions/search?q=%22e2function+number+rangerSetFilter%22+filename%3Asv_vex_main.lua&type=Code">e2function<a/> <a href="https://github.com/Vurv78/VExtensions/search?q=%22desc+rangerSetFilter+r%22+filename%3Acl_vexdocs.lua&type=Code">𝙙𝙤𝙘𝙨</a></summary>
+<summary><code>rangerSetFilter</code></summary>
 <p>
 
-![][number] = `rangerSetFilter(`![][array]`filter)`
-> Sets the filter of your E2 rangers.
+#### `rangerSetFilter(array filter)`
+  <a href="https://github.com/Vurv78/VExtensions/search?q=%22e2function+number+rangerSetFilter%22+filename%3Asv_vex_main.lua&type=Code" target="blank">e2function<a/> <a href="https://github.com/Vurv78/VExtensions/search?q=%22desc+rangerSetFilter+r%22+filename%3Acl_vexdocs.lua&type=Code" target="blank">𝙙𝙤𝙘𝙨</a>
+  
+  > Sets the current filter to be used with ranger-based functionality.  
+  > Returns: ![][number] `number`  
+  >> `1` for success; otherwise `0`.  
+  
+  > Arguments:  
+  >> 1. ![][array] `array filter`: .
 
 </p>
 </details>
 
 <details>
-<summary><code>hideChatPly</code> <a href="https://github.com/Vurv78/VExtensions/search?q=%22e2function+void+hideChatPly%22+filename%3Asv_vex_main.lua&type=Code">❪e2function❫<a/> <a href="https://github.com/Vurv78/VExtensions/search?q=%22desc+hideChatPly+en%22+filename%3Acl_vexdocs.lua&type=Code">❲docs❳</a></summary>
+<summary><code>hideChatPly</code></summary>
 <p>
 
-`hideChatPly(`![][entity]`ply,`![][number]`yes)`
-> Hides the chat of a player selected (by default enabled, but warns you when it is hidden and you can disable it with `canhidechatply_cl` ConVar
+#### `hideChatPly(entity ply, number yes)`
+  <a href="https://github.com/Vurv78/VExtensions/search?q=%22e2function+void+hideChatPly%22+filename%3Asv_vex_main.lua&type=Code" target="blank">❪e2function❫<a/> <a href="https://github.com/Vurv78/VExtensions/search?q=%22desc+hideChatPly+en%22+filename%3Acl_vexdocs.lua&type=Code" target="blank">❲docs❳</a>
+  
+  > Hides the chat of a player selected (by default enabled, but warns you when it is hidden and you can disable it with `canhidechatply_cl` ConVar).  
+  > Returns: `void`  
+  
+  > Arguments:  
+  >> 1. ![][entity] `entity ply`: The player to hide chat of.  
+  >> 2. ![][number] `number yes`: `1` to hide `ply`'s chat; otherwise `0`.
 
 </p>
 </details>
@@ -132,17 +199,26 @@ Similar to the [ChatPrint](https://github.com/MattJeanes/ChatPrint) E2 extension
 
 ![][SHARED] `abcd...`
 
-## ***Contributors***
+## 🙏 ***Contributors***
 | [<kbd>Vurv78</kbd>](https://github.com/Vurv78) | [<kbd>Fasteroid</kbd>](https://github.com/Fasteroid) | [<kbd>Cheatoid</kbd>](https://github.com/Cheatoid) |
 | :-: | :-: | :-: |
-| <a href="https://github.com/Vurv78/VExtensions/commits?author=Vurv78"><img src="https://avatars0.githubusercontent.com/u/56230599?s=120&v=4" width="120" alt="Vurv78"></a><br><a href="https://steamcommunity.com/profiles/76561198151473160" title="Steam"><img src="https://user-images.githubusercontent.com/13347909/101342422-d4154600-3882-11eb-96fb-be22b15fab9f.png" alt="Steam"></a>&#160;&#160;<a href="https://discord.com/users/363590853140152321" title="Discord"><img src="https://user-images.githubusercontent.com/13347909/101343935-045de400-3885-11eb-90e0-706875b1fd5c.png" alt="Discord"></a> | <a href="https://github.com/Vurv78/VExtensions/commits?author=Fasteroid"><img src="https://avatars0.githubusercontent.com/u/29342750?s=120&v=4" width="120" alt="Fasteroid"></a><br><a href="https://steamcommunity.com/profiles/76561198008093053" title="Steam"><img src="https://user-images.githubusercontent.com/13347909/101342422-d4154600-3882-11eb-96fb-be22b15fab9f.png" alt="Steam"></a> | <a href="https://github.com/Vurv78/VExtensions/commits?author=Cheatoid"><img src="https://avatars0.githubusercontent.com/u/13347909?s=120&v=4" width="120" alt="Cheatoid"></a><br><a href="https://steamcommunity.com/profiles/76561198119930042" title="Steam"><img src="https://user-images.githubusercontent.com/13347909/101342422-d4154600-3882-11eb-96fb-be22b15fab9f.png" alt="Steam"></a> |
+| <a href="https://github.com/Vurv78/VExtensions/commits?author=Vurv78"><img src="https://avatars0.githubusercontent.com/u/56230599?s=120&v=4" width="120" alt="Vurv78"></a><br><a href="https://steamcommunity.com/profiles/76561198151473160" title="Steam" target="blank"><img src="https://user-images.githubusercontent.com/13347909/101342422-d4154600-3882-11eb-96fb-be22b15fab9f.png" alt="Steam"></a>&#160;&#160;<a href="https://discord.com/users/363590853140152321" title="Discord" target="blank"><img src="https://github.com/gmod-cheatoid/gmod-cheatoid/raw/main/discord-logo.svg" width="32" alt="Discord"></a> | <a href="https://github.com/Vurv78/VExtensions/commits?author=Fasteroid"><img src="https://avatars0.githubusercontent.com/u/29342750?s=120&v=4" width="120" alt="Fasteroid"></a><br><a href="https://steamcommunity.com/profiles/76561198008093053" title="Steam" target="blank"><img src="https://user-images.githubusercontent.com/13347909/101342422-d4154600-3882-11eb-96fb-be22b15fab9f.png" alt="Steam"></a> | <a href="https://github.com/Vurv78/VExtensions/commits?author=Cheatoid"><img src="https://avatars0.githubusercontent.com/u/13347909?s=120&v=4" width="120" alt="Cheatoid"></a><br><a href="https://steamcommunity.com/profiles/76561198119930042" title="Steam" target="blank"><img src="https://user-images.githubusercontent.com/13347909/101342422-d4154600-3882-11eb-96fb-be22b15fab9f.png" alt="Steam"></a> |
 
 ## ***License***
 <kbd>// TBD.</kbd>
 
+-----
+
+<p align="right">
+  <a href="#readme" title="(Statistics) Total view/hit counter"><img src="http://hits.dwyl.com/Vurv78/VExtensions.svg" alt="(Statistics) Total view/hit counter"></a>
+  <br>
+  <!-- Do not touch this link, it does not work while on the edit page, but otherwise it does work -->
+  <a href="#readme" title="return to top">return to top 🔝</a>
+</p>
+
 
 [EPIC]: https://img.shields.io/badge/epic%3F-yes-blue?style=for-the-badge&labelColor=303030 "EPIC? Yes!"
-[Contributors]: https://img.shields.io/github/contributors/Vurv78/VExtensions?label=AWESOME%20CONTRIBUTORS&logo=github&logoColor=white&style=for-the-badge&labelColor=303030 "VExtensions Contributors"
+[Contributors]: https://img.shields.io/github/contributors/Vurv78/VExtensions?label=AWESOME%20CONTRIBUTORS&logo=github&logoColor=white&style=for-the-badge&labelColor=303030 "VExtensions contributors"
 [GModServer]: https://img.shields.io/badge/Featured%20Server-Beyond%20Infinity-red?style=for-the-badge&labelColor=303030&color=blue "Featured on Beyond Infinity server"
 [SteamLogo]: https://user-images.githubusercontent.com/13347909/101342422-d4154600-3882-11eb-96fb-be22b15fab9f.png "Steam"
 [DiscordLogo]: https://user-images.githubusercontent.com/13347909/101343935-045de400-3885-11eb-90e0-706875b1fd5c.png "Discord"
