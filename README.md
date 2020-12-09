@@ -34,6 +34,14 @@ This is comparable to addons like Antagonise-Core / AntCore or E2Power, except, 
   <a href="https://github.com/TypeScriptToLua/TypeScriptToLua" title="TypeScript" target="blank"><img src="https://github.com/TypeScriptToLua/TypeScriptToLua/raw/master/logo-hq.png" alt="TypeScript" height="32"></a>
 </p>
 
+## 🚀 ***Built with VExtensions***
+*If you create something cool using VExtensions and would like to share it with community, feel free to post it at [`Show and tell`](https://github.com/Vurv78/VExtensions/discussions?discussions_q=category%3A%22Show+and+tell%22).*  
+*Only the top-rated creations (with most upvotes) will be showcased here. Good luck!*
+
+| Image/Preview | Name | Credits |
+| :-: | :-: | :-: |
+| ![][ToBeFilled] | (To Be Filled) | (To Be Filled) |
+
 ## 📕 ***Wiki***
 <a href="https://vurv78.github.io/vextensions" target="blank">
 <img src="https://img.shields.io/website?url=https%3A%2F%2Fvurv78.github.io%2Fvextensions&logo=google-chrome&style=flat-square&labelColor=303030">
@@ -63,14 +71,6 @@ Please contribute using [GitHub Flow](https://guides.github.com/introduction/flo
 <!--
 Please make sure you agree with our [`CODE OF CONDUCT`](CODE_OF_CONDUCT.md).  
 The details about the process for submitting pull requests is in [`CONTRIBUTING`](CONTRIBUTING.md).
--->
-
-## 🚀 ***Built with VExtensions***
-*If you create something cool using VExtensions and would like to share it, feel free to make PR to add it on the list.*
-
-- (To Be Filled)
-<!--
-- [`Virtual Machine`](/) (E2) by [Cheatoid](https://github.com/Cheatoid)
 -->
 
 -----
@@ -228,6 +228,7 @@ Similar to the [ChatPrint](https://github.com/MattJeanes/ChatPrint) E2 extension
 [GModServer]: https://img.shields.io/badge/Featured%20Server-Beyond%20Infinity-red?style=for-the-badge&labelColor=303030&color=blue "Featured on Beyond Infinity server"
 [SteamLogo]: https://user-images.githubusercontent.com/13347909/101342422-d4154600-3882-11eb-96fb-be22b15fab9f.png "Steam"
 [DiscordLogo]: https://user-images.githubusercontent.com/13347909/101343935-045de400-3885-11eb-90e0-706875b1fd5c.png "Discord"
+[ToBeFilled]: https://user-images.githubusercontent.com/13347909/101585631-7139c100-39e0-11eb-8c5f-973c56850791.png "To Be Filled"
 [array]: https://raw.githubusercontent.com/wiki/wiremod/wire/Type-Array.png "array"
 [number]: https://raw.githubusercontent.com/wiki/wiremod/wire/Type-Number.png "number"
 [string]: https://raw.githubusercontent.com/wiki/wiremod/wire/Type-String.png "string"
