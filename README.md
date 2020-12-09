@@ -55,6 +55,9 @@ This is comparable to addons like Antagonise-Core / AntCore or E2Power, except, 
     ```
 🌟 You are all set!
 
+## 💬 ***Need help? Want new features?***
+➡ [Come and talk with us on GitHub Discussions](https://github.com/Vurv78/VExtensions/discussions).
+
 ## 🍰 ***Contributing***
 Please contribute using [GitHub Flow](https://guides.github.com/introduction/flow). Create a branch, add commits, and [open a pull request](https://github.com/Vurv78/VExtensions/compare).  
 <!--
