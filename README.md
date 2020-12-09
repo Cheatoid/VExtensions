@@ -40,7 +40,7 @@ This is comparable to addons like Antagonise-Core / AntCore or E2Power, except, 
 
 | Image/Preview | Name | Credits |
 | :-: | :-: | :-: |
-| ![][ToBeFilled] | (To Be Filled) | (To Be Filled) |
+| [![][ToBeFilled]](#-built-with-vextensions) | (To Be Filled) | (To Be Filled) |
 
 ## 📕 ***Wiki***
 <a href="https://vurv78.github.io/vextensions" target="blank">
