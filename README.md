@@ -216,7 +216,7 @@ Similar to the [ChatPrint](https://github.com/MattJeanes/ChatPrint) E2 extension
 -----
 
 <p align="right">
-  <a href="#readme" title="(Statistics) Total view/hit counter"><img src="http://hits.dwyl.com/Vurv78/VExtensions.svg" alt="(Statistics) Total view/hit counter"></a>
+  <!--<a href="#readme" title="(Statistics) Total view/hit counter"><img src="http://hits.dwyl.com/Vurv78/VExtensions.svg" alt="(Statistics) Total view/hit counter"></a>-->
   <br>
   <!-- Do not touch this link, it does not work while on the edit page, but otherwise it does work -->
   <a href="#readme" title="return to top">return to top 🔝</a>
